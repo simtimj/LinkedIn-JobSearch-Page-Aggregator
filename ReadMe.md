@@ -1,0 +1,1 @@
+User Script to go through linkedIn job search results, and instead of clicking through the 15 or so pages, this script will collect it all into one page, also allowing other scripts such as filters to work.
