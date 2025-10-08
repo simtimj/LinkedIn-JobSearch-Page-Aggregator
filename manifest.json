@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "LinkedIn & Wellfound to Google Sheets Mapper",
+  "version": "1.0",
+  "description": "A simple Chrome extension",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "emoticon_cool.png",
+      "48": "emoticon_cool.png",
+      "128": "emoticon_cool.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting",
+    "clipboardWrite"
+  ],
+  "host_permissions": [
+    "https://script.google.com/macros/s/*"
+  ]
+}
